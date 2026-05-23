@@ -17,6 +17,7 @@
 使用 ad-brief，帮我整理一份广告创意简报。
 使用 media-plan，帮我做一版广告媒介规划。
 使用 creative-review，帮我审一下这组广告创意。
+使用 seedance-short-drama-storyboard，把这个短剧剧本拆成 Seedance 2.0 分镜提示词。
 ```
 
 ## 当前 Skills
@@ -24,6 +25,7 @@
 - `ad-brief`：广告创意简报
 - `media-plan`：广告媒介规划
 - `creative-review`：广告创意审核
+- `seedance-short-drama-storyboard`：Seedance 短剧 15 秒分镜
 
 ## 目录
 

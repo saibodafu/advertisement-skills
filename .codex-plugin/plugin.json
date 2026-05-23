@@ -1,12 +1,12 @@
 {
   "name": "advertisement-skills",
   "version": "0.1.0",
-  "description": "广告技能市场包：用于广告创意简报、媒介规划、创意审核、素材优化和投放复盘工作流。Advertisement skills market package for ad briefs, media planning, creative review, asset optimization, and campaign retrospectives.",
+  "description": "广告技能市场包：用于广告创意简报、媒介规划、创意审核、Seedance 短剧分镜、素材优化和投放复盘工作流。Advertisement skills market package for ad briefs, media planning, creative review, Seedance short drama storyboards, asset optimization, and campaign retrospectives.",
   "author": {
     "name": "saibodafu"
   },
   "interface": {
     "displayName": "Advertisement Skills",
-    "description": "可复用的 Codex 广告工作流技能，覆盖广告创意简报、媒介规划、创意审核和投放复盘。Reusable advertisement workflow skills for ad briefs, media planning, creative review, and campaign retrospectives."
+    "description": "可复用的 Codex 广告工作流技能，覆盖广告创意简报、媒介规划、创意审核、Seedance 短剧分镜和投放复盘。Reusable advertisement workflow skills for ad briefs, media planning, creative review, Seedance short drama storyboards, and campaign retrospectives."
   }
 }

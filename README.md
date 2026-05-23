@@ -63,6 +63,12 @@ Codex 会读取 `AGENTS.md`、`.codex-plugin/plugin.json`、`commands/` 和 `ski
 使用 creative-review，帮我审一下这组广告创意，指出风险和优化方向。
 ```
 
+或者：
+
+```text
+使用 seedance-short-drama-storyboard，把这个短剧剧本按 15 秒拆成 Seedance 2.0 分镜提示词。
+```
+
 ---
 
 ## 使用方式
@@ -73,6 +79,7 @@ Codex 会读取 `AGENTS.md`、`.codex-plugin/plugin.json`、`commands/` 和 `ski
 /advertisement ad-brief 为一个广告投放需求生成创意简报
 /advertisement media-plan 为一个产品或活动规划广告媒介组合
 /advertisement creative-review 审核广告创意并给出优化建议
+/advertisement seedance-short-drama-storyboard 把短剧剧本拆成 Seedance 2.0 的 15 秒分镜 Block
 ```
 
 以下自然语言也适合触发：
@@ -82,6 +89,8 @@ Codex 会读取 `AGENTS.md`、`.codex-plugin/plugin.json`、`commands/` 和 `ski
 - “帮我规划这波广告投放渠道”
 - “审一下这组广告创意”
 - “帮我判断这个广告素材哪里可以优化”
+- “把这个短剧剧本拆成 Seedance 分镜提示词”
+- “按 15 秒一个 Block 拆分这个剧情”
 
 ---
 
@@ -126,6 +135,19 @@ Codex 会读取 `AGENTS.md`、`.codex-plugin/plugin.json`、`commands/` 和 `ski
 - 文案和画面修改方向
 - 下一版测试建议
 
+### seedance-short-drama-storyboard
+
+把完整短剧剧情、广告短剧脚本或口播剧情拆成 Seedance 2.0 可用的连续 15 秒分镜 Block。
+
+输出重点：
+
+- 15 秒连续 Block
+- BGM 起承转合
+- Seedance 友好运镜
+- 画面微细节
+- 简短有力对白
+- 动作衔接转场
+
 ---
 
 ## GitHub 仓库
@@ -151,7 +173,9 @@ Codex 会读取 `AGENTS.md`、`.codex-plugin/plugin.json`、`commands/` 和 `ski
     │   └── SKILL.md
     ├── creative-review/
     │   └── SKILL.md
-    └── media-plan/
+    ├── media-plan/
+    │   └── SKILL.md
+    └── seedance-short-drama-storyboard/
         └── SKILL.md
 ```
 
