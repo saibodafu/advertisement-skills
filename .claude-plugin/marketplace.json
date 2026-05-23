@@ -1,0 +1,34 @@
+{
+  "name": "advertisement-skills-market",
+  "id": "advertisement-skills-market",
+  "owner": {
+    "name": "saibodafu"
+  },
+  "metadata": {
+    "description": "面向实战广告工作流的 skills market。A skills marketplace for practical advertisement workflows.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "advertisement-skills",
+      "source": "./",
+      "description": "广告技能包：用于广告创意简报、媒介规划、创意审核、素材优化和投放复盘工作流。Advertisement skills for ad briefs, media planning, creative review, asset optimization, and campaign retrospectives.",
+      "version": "0.1.0",
+      "author": {
+        "name": "saibodafu"
+      },
+      "keywords": [
+        "advertising",
+        "advertisement",
+        "ad brief",
+        "media planning",
+        "creative review",
+        "creative testing",
+        "performance ads",
+        "campaign",
+        "paid media"
+      ],
+      "category": "advertising"
+    }
+  ]
+}
